@@ -35,6 +35,13 @@ body {
     background-color: #15191C;
     width: 75vw;
     height: 100vh;
+    position: absolute;
+    left: -100vh;
+    transition: ease-in-out 0.3s;
+}
+
+.menu-lateral--ativo {
+ left: 0;
 }
 .menu-lateral__logo {
     align-self: center;
